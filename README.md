@@ -1,5 +1,12 @@
-# Título
-Description
+# Notification System
+
+Modern and scalable system to handle notifications for authenticated users. It can create, modify, delete and
+get notifications that are sent through multiple channels (email, SMS, push notifications) 
+
+## Project description
+
+This project implements a robust RESTful API to manage multi-channel notifications with secure authentication.
+Each notification can be sent through different channels, each with their own validation and delivery logic.
 
 ### Features
 - Create new users with their Pokemon Ids
@@ -55,8 +62,9 @@ chmod 711 ./up_test.sh
 
 ## Route
 
-- : [![API Swagger](https://localhost:3000/docs)
+- : [![API Swagger]](https://localhost:3000/docs)
 
 ## Env vars should be defined
 
 To find an example of the values you can use .env.example
+Porject will ned an .env.docker file as well
